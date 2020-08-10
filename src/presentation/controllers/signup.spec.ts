@@ -33,4 +33,20 @@ describe('Signup Controller', () => {
     const httpResponse = sut.handle(httpRequest)
     expect(httpResponse.statusCode).toBe(400)
   })
+  // Test: No Group provided
+  test('Should return 400 if no group is provided', () => {
+    const sut = new SignupController()
+    const httpRequest = {
+      body: {
+        name: 'any_name',
+        email: 'any_email@email.com',
+        password: 'any_password',
+        country: {},
+        role: 10,
+        status: 1
+      }
+    }
+    const httpResponse = sut.handle(httpRequest)
+    expect(httpResponse.statusCode).toBe(400)
+  })
 })
