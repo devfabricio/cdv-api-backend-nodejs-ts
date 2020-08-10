@@ -11,7 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9341f35-62e6-46a0-9c73-74195ebc52d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +30,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.eslintrc.json" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="Z:\Fabricio\Pessoais\Trabalhos\CDV\dev\cdv-api-server-v2\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="Z:\Fabricio\Pessoais\Trabalhos\CDV\dev\cdv-api-server-v2\node_modules\typescript\lib" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -40,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597066988624</updated>
-      <workItem from="1597066989813" duration="2412000" />
+      <workItem from="1597066989813" duration="3210000" />
     </task>
     <servers />
   </component>
@@ -57,5 +67,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="514" y="170" key="FileChooserDialogImpl" timestamp="1597069904870">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="514" y="170" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1597069904870" />
+    <state x="235" y="60" key="SettingsEditor" timestamp="1597069912609">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="235" y="60" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1597069912609" />
   </component>
 </project>
