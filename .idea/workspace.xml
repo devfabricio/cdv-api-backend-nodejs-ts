@@ -11,13 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9341f35-62e6-46a0-9c73-74195ebc52d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/presentation/controllers/signup.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/errors/invalid-param-error.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/errors/missing-param-error.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/helpers/http-helper.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/protocols/http.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/presentation/controllers/signup.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597066988624</updated>
       <workItem from="1597066989813" duration="5584000" />
-      <workItem from="1597077135111" duration="6861000" />
+      <workItem from="1597077135111" duration="7017000" />
     </task>
     <servers />
   </component>
