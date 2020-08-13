@@ -1,4 +1,4 @@
-import { AddAccount } from '../../../domain/usecases/add-account'
+import { AddAccount, Encrypter } from './db-add-account-protocols'
 import { DbAddAccount } from './db-add-account'
 
 const makeEncrypter = (): Encrypter => {
