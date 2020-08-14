@@ -89,4 +89,21 @@ describe('DBAddAccount Usecase', () => {
     await sut.add(accountData)
     expect(addAccountRepositorySpy).toHaveBeenCalledWith(accountData)
   })
+  test('Should throw if AddAccountRepository throws', async () => {
+    const { addAccountRepository, sut } = makeSut()
+    jest.spyOn(addAccountRepository, 'add').mockReturnValueOnce(new Promise((resolve, reject) => {
+      return reject(new Error())
+    }))
+    const accountData = {
+      name: 'valid_name',
+      email: 'valid_email@email.com',
+      password: 'valid_password',
+      group: 'valid_id',
+      country: {},
+      role: 10,
+      status: 1
+    }
+    const promise = sut.add(accountData)
+    await expect(promise).rejects.toThrow()
+  })
 })
